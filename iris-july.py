@@ -39,8 +39,8 @@ prediction_proba = clf.predict_proba(df)
 st.subheader('Class labels and their corresponding index number')
 
 cl = ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
-df1 = pd.DataFrame(cl, index = ['a', 'b', 'c'], columns = ['Species']
-df1
+df2 = pd.DataFrame(cl, index = ['a', 'b', 'c'], columns = ['species']
+df2
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
